@@ -1,0 +1,6 @@
+
+## Python Exercises:
+1. Find the number of emails in the [emails_exchange-big](https://raw.githubusercontent.com/Asabeneh/data-science-for-everyone/master/datasets/email_exchanges-big.txt) text file.
+1. Finding the most commonly repeated [words](https://simple.wikipedia.org/wiki/Most_common_words_in_English) in the English language. Call the name of your function find_most_common_words, it will take two parameters which are a string or a file and a positive integer. Your function will return an array of tuples in descending order.
+2. Write a function which checks similarity between two texts. You can call your function check_text_similarity. It takes a file or a string a parameter and it will evaluate the similarity of the two texts. For instance check the similarity between the transcripts of [michelle's](https://github.com/Asabeneh/data-science-for-everyone/blob/master/datasets/michelle_obama_speech.txt) and [melina's](https://github.com/Asabeneh/data-science-for-everyone/blob/master/datasets/michelle_obama_speech.txt) speech
+3. Develop a program which calculate the measure of central tendency of a sample(mean, median, mode) and measure of variability(range, variance, standard deviation). In addition to those measure, find the min, max, count and frequency distribution of the sample.
