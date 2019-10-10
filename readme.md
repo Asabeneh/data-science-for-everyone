@@ -7,16 +7,16 @@
 ```py
 ages = [31, 26, 34, 37, 27, 26, 32, 32, 26, 27, 27, 24, 32, 33, 27, 25, 26, 38, 37, 31, 34, 24, 33, 29, 26]
 
-print('mean: ', data.mean(age)) # 30
-print('median: ',data.median(ages)) # 29
-print('mode: ', data.mode(ages)) # 26, 5 times
-print('min: ', data.min(ages)) # 24
-print('max: ', data.max(ages)) # 38
-print('Count:', data(ages)) # 25
-print('sum: ', data.sum(ages)) # 744
-print('Range: ', data.range(ages) # 14
-print('std: ', data.std(ages)) # 4.2
-print('variance: ',data.var(ages)) # 17.5
+print('mean: ', data.mean()) # 30
+print('median: ',data.median()) # 29
+print('mode: ', data.mode()) # 26, 5 times
+print('min: ', data.min()) # 24
+print('max: ', data.max()) # 38
+print('Count:', data()) # 25
+print('sum: ', data.sum()) # 744
+print('Range: ', data.range() # 14
+print('std: ', data.std()) # 4.2
+print('variance: ',data.var()) # 17.5
 
 print(data.describe())
 Mean:  30
