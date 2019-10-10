@@ -39,11 +39,11 @@
    print('Range: ', data.range() # 14
    print('Mean: ', data.mean()) # 30
    print('Median: ',data.median()) # 29
-   print('Mode: ', data.mode()) # 26, 5 times
+   print('Mode: ', data.mode()) # {'mode': 26, 'count': 5}
    print('Variance: ',data.var()) # 17.5
    print('Standard Deviation: ', data.std()) # 4.2
    print('Variance: ',data.var()) # 17.5
-   print('Frequency Distribution: ',data.freq_dist()) # 17.5
+   print('Frequency Distribution: ',data.freq_dist()) # [(20.0, 26), (16.0, 27), (12.0, 32), (8.0, 37), (8.0, 34), (8.0, 33), (8.0, 31), (8.0, 24), (4.0, 38), (4.0, 29), (4.0, 25)]
 
    print(data.describe())
    Count: 25
@@ -56,7 +56,7 @@
    Mode:  (26, 5)
    Variance:  17.5
    Standard Deviation:  4.2
-   Frequency Distribution: [(5, 26), (4, 27), (3, 32), (2, 37), (2, 34), (2, 33), (2, 31), (2, 24), (1, 38), (1, 29), (1, 25)]
+   Frequency Distribution: [(20.0, 26), (16.0, 27), (12.0, 32), (8.0, 37), (8.0, 34), (8.0, 33), (8.0, 31), (8.0, 24), (4.0, 38), (4.0, 29), (4.0, 25)]
    ```
 
 1. Find the ten most spoken languages from the [countries](https://github.com/Asabeneh/data-science-for-everyone/blob/master/datasets/countries_data.json) data json file. You can call your function, find_ten_most_spoken_languages.
