@@ -1,6 +1,6 @@
 
 ## Python Exercises:
-1. Find the total number of emails in the [emails_exchange-big](https://raw.githubusercontent.com/Asabeneh/data-science-for-everyone/master/datasets/email_exchanges-big.txt) text file and create a distribution frequency of the email and number of counts. You can call you function, extract_emails.
+1. Find the total number of emails in the [emails_exchange-big](https://raw.githubusercontent.com/Asabeneh/data-science-for-everyone/master/datasets/email_exchanges_big.txt) text file and create a distribution frequency of the email and number of counts. You can call you function, extract_emails.
 1. Find the most common [words](https://simple.wikipedia.org/wiki/Most_common_words_in_English) in the English language. Call the name of your function find_most_common_words, it will take two parameters which are a string or a file and a positive integer. Your function will return an array of tuples in descending order. Check the output
 ```py
 print(find_most_common_words('sample.txt', 10))
