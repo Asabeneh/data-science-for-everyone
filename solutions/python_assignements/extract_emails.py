@@ -1,9 +1,7 @@
 import re
-import os
 from pprint import pprint
 
-filename = os.path.join(
-    '/Users/asabeneh/Desktop/projects/data-science-for-everyone/datasets/email_exchanges_big.txt')
+filename = '/Users/asabeneh/Desktop/projects/data-science-for-everyone/datasets/email_exchanges_big.txt'
 
 def extract_emails():
     file_name = input('Enter a file name: ')

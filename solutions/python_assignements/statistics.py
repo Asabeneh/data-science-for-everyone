@@ -1,12 +1,15 @@
 import math
+from pprint import  pprint
 ages = [31, 26, 34, 37, 27, 26, 32, 32, 26, 27, 27, 24,
         32, 33, 27, 25, 26, 38, 37, 31, 34, 24, 33, 29, 26]
+
 
 def calc_sum(lst):
     total = 0
     for i in lst:
         total += i
     return total
+
 
 def calc_mean(lst):
     total = calc_sum(lst)
@@ -105,7 +108,6 @@ print('Median:', calc_median(ages))
 print('Variance: ', calc_variance(ages))
 print('Standard Deviation: ', calc_std(ages))
 print('Frequency Distribution: ', freq_dist(ages))
-
 
 class Stats:
     def __init__(self, lst):
@@ -237,4 +239,4 @@ print('Variance: ', data.var())
 print('Standard Deviation: ', data.std())
 print('Frequency Distribution: ', data.freq_dist())
 print('==== Details ====')
-print(data.describe())
+pprint(data.describe())

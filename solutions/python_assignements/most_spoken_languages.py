@@ -3,8 +3,7 @@ import os
 from pprint import pprint
 
 def most_spoken_languages(n):
-    filename = os.path.join(
-        '/Users/asabeneh/Desktop/projects/data-science-for-everyone/datasets/countries_data.json')
+    filename ='/Users/asabeneh/Desktop/projects/data-science-for-everyone/datasets/countries_data.json'
     languages = {}
     with open(filename) as f:
         data = json.load(f)

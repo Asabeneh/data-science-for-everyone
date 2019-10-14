@@ -60,19 +60,12 @@ def check_text_similarity():
     melina_percentage = round(common * 100 / len(melina_main_words))
     michelle_percentage = round(common * 100 / len(michelle_main_words))
 
-    count = 0
-    only_melina = Melina.difference(Michelle)
-    for word in melina_main_words:
-        if word in only_melina:
-            count += 1
-    print(count / len(melina_main_words))
-
     return {
         'common_words': common,
-        'melina_words': len(melina_main_words),
-        'michelle_words': len(michelle_main_words),
-        'melina_similarity': melina_percentage,
-        'michelle_similarity': michelle_percentage,
+        'melina__main_words': len(melina_main_words),
+        'michelle_main_words': len(michelle_main_words),
+        'melina_similarity':  str(melina_percentage) + ' %',
+        'michelle_similarity':  str(michelle_percentage) + ' %',
     }
 
 

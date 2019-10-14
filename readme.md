@@ -61,4 +61,6 @@
 
 1. Find the ten most spoken languages from the [countries](https://github.com/Asabeneh/data-science-for-everyone/blob/master/datasets/countries_data.json) data json file. You can call your function, find_ten_most_spoken_languages.
 
+Solutions for the assignment is available [here](https://github.com/Asabeneh/data-science-for-everyone/tree/master/solutions)
+
 If you want to practice python checkout the [python](https://github.com/Asabeneh/Python-for-Everyone/blob/master/python_for_everyone.ipynb) for everyone material.

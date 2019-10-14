@@ -1,4 +1,5 @@
 import re
+from pprint import pprint
 
 
 def find_most_common_words(file_name='clown.txt', n=10):
@@ -24,8 +25,9 @@ def find_most_common_words(file_name='clown.txt', n=10):
     return sorted(freq_table, reverse=True)[:n+1]
 
 
-print(find_most_common_words('melina_trump_speech.txt', 10))
 print('=== ======')
-print(find_most_common_words('michelle_obama_speech.txt', 10))
-print(find_most_common_words('obama_speech.txt', 10))
-print(find_most_common_words('donald_speech.txt', 10))
+filename_melina = '/Users/asabeneh/Desktop/projects/data-science-for-everyone/datasets/melina_trump_speech.txt'
+filename_michelle = '/Users/asabeneh/Desktop/projects/data-science-for-everyone/datasets/michelle_obama_speech.txt'
+pprint(find_most_common_words(filename_melina, 10))
+pprint(find_most_common_words(filename_michelle, 10))
+
